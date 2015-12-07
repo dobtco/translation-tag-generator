@@ -8,7 +8,7 @@ table {
 }
 
 tbody tr:first-child td:last-child:after {
-  content: 'Default langauge';
+  content: 'Default language';
   margin-left: 20px;
   color: #999;
 }
