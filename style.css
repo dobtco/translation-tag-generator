@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+}
+
+tbody tr:first-child td:last-child:after {
+  content: 'Default langauge';
+  margin-left: 20px;
+  color: #999;
+}
+
+th {
+  text-align: left;
+}
+
+th, td {
+  vertical-align: top;
+}
+
+.language_td {
+  width: 100px;
+}
+
+.textarea_td {
+  width: 400px;
+}
+
+table textarea {
+  width: 90%;
+  height: 50px;
+}
+
+.result {
+  margin-top: 100px;
+  width: 400px;
+  height: 100px;
+  background-color: #eee;
+  color: #666;
+}
